@@ -185,6 +185,7 @@
 }
 
 .post-list-heading {
+  text-align: center;
   @include relative-font-size(1.75);
 }
 
@@ -197,14 +198,17 @@
   }
 }
 
-.post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
-}
-
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  text-align: center;
+  margin: 21px;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+  color: #1434A4;
 }
 
 

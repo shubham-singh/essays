@@ -218,10 +218,15 @@ pre {
 }
 
 .social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
+  display: flex;
+  justify-content: space-between;
 }
+
+.social-media-list > li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
 
 
 
